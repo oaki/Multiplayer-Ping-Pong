@@ -1,25 +1,2 @@
-
-# Socket.IO Chat
-
-A simple chat demo for socket.io
-
-## How to use
-
-```
-$ cd socket.io
-$ npm install
-$ cd examples/chat
-$ npm install
-$ node .
-```
-
-And point your browser to `http://localhost:3000`. Optionally, specify
-a port by supplying the `PORT` env variable.
-
-## Features
-
-- Multiple users can join a chat room by each entering a unique username
-on website load.
-- Users can type chat messages to the chat room.
-- A notification is sent to all users when a user joins or leaves
-the chatroom.
+Demonstration of multiplayer game ping pong based on Node.js and package SOCKET.IO. 
+- Multiple users can join by each entering a username and after sign in play ping pong. 
