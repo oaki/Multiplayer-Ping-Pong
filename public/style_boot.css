@@ -1,0 +1,138 @@
+body {
+
+}
+
+.pipo-holder {
+    /*padding: 40px 15px;*/
+    /*text-align: center;*/
+    width: 100%;
+    height: 100%;
+}
+
+.game-page {
+    display: none;
+}
+
+/* Login Page */
+
+.login-page {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.login-page .form {
+    height: 100px;
+    margin-top: -100px;
+    position: absolute;
+
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.login-page .form .usernameInput {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 400px;
+}
+
+.login-page .title {
+    font-size: 200%;
+}
+
+.login-page .usernameInput {
+    font-size: 200%;
+    letter-spacing: 3px;
+}
+
+.login-page .title, .login-page .usernameInput {
+    color: #fff;
+    font-weight: 100;
+}
+
+.rackets .racket {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    z-index: 99999;
+}
+
+.racket1 {
+    background: url(images/racket.png) no-repeat;
+}
+
+.racket2 {
+    background: url(images/racket-green.png) no-repeat;
+}
+
+.racket3 {
+    background: url(images/racket-blue.png) no-repeat;
+}
+
+.racket4 {
+    background: url(images/azure.png) no-repeat;
+}
+
+.racket5 {
+    background: pink;
+}
+
+.racket6 {
+    background: gray;
+}
+
+#playground {
+    background-color: silver;
+    background: url(images/parkety.jpg);
+    width: 968px;
+    height: 776px;
+    margin-top: 50px;
+    position: relative;
+}
+
+#table {
+    width: 768px;
+    height: 576px;
+    background: url(images/table.png) no-repeat;
+    position: absolute;
+    top:100px;
+    left: 100px;
+    z-index: 1;
+}
+
+.score{
+    font-size: 38px;
+    color:white;
+    position: absolute;
+    top: 50px;
+    left: 458px;
+}
+#signedInAs{
+    font-weight: bold;
+    color: white;
+}
+
+#ball{
+    position: absolute;
+    top:100px;
+    left: 100px;
+    background: url(images/ball.png) no-repeat;
+    z-index: 2;
+}
+
+#map{
+    z-index: 9999;
+}
+line {
+    z-index: 9999;
+    stroke:rgb(1,1,1);
+    stroke-width:3;
+}
